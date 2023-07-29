@@ -1,0 +1,27 @@
+{
+  "name": "my_vite_project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "echarts": "^5.4.3",
+    "echarts-stat": "^1.2.0",
+    "mathjs": "^11.9.1",
+    "nanoid": "^4.0.2",
+    "pinia": "^2.1.4",
+    "vue": "^3.2.47",
+    "vue-echarts": "^6.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
